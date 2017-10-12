@@ -1,0 +1,19 @@
+﻿<Window x:Class="SDPrinterTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Service Desk Printer Tool" Height="164" Width="466" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,0">
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Height="23" Margin="90,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
+        <Label Content="Printer Path:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnInfo" Content="Info" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="75" Click="btnInfo_Click"/>
+        <Button x:Name="btnQueue" Content="Queue" HorizontalAlignment="Left" Margin="90,97,0,0" VerticalAlignment="Top" Width="75" Click="btnQueue_Click"/>
+        <Button x:Name="btnProp" Content="Properties" HorizontalAlignment="Left" Margin="170,97,0,0" VerticalAlignment="Top" Width="75" Click="btnProp_Click"/>
+        <Button x:Name="btnSpool" Content="Spooler Start/Stop" HorizontalAlignment="Left" Margin="250,97,0,0" VerticalAlignment="Top" Width="115" Click="btnSpool_Click"/>
+        <Label Content="WSID:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWSID" HorizontalAlignment="Left" Height="23" Margin="90,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="370,10,0,0" VerticalAlignment="Top" Width="75" Click="btnClear_OnClick"/>
+        <Button x:Name="btnMapPrinter" Content="Map" HorizontalAlignment="Left" Margin="290,10,0,0" VerticalAlignment="Top" Width="75" Click="btnMapPrinter_Click"/>
+        <Button x:Name="btnTest" Content="Test" HorizontalAlignment="Left" Margin="370,97,0,0" VerticalAlignment="Top" Width="75" Click="btnTest_Click"/>
+
+    </Grid>
+</Window>
